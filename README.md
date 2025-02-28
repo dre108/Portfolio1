@@ -1,7 +1,3 @@
-Certainly! Below is the final version of the README file tailored for your portfolio, incorporating the HTML structure you provided. I've structured it to be both informative and clear, offering a brief overview of the portfolio and its contents.
-
----
-
 # Deondre Kinsey's Software Developer Portfolio
 
 Welcome to my personal portfolio! This website showcases my skills, work experience, and testimonials as a Software Developer. It is designed to provide a glimpse into my professional journey and the work I am passionate about.
@@ -129,9 +125,9 @@ Here is the basic HTML structure that powers the portfolio:
 
 ## Contact
 
-- **Email**: [Your Email]
-- **LinkedIn**: [LinkedIn Profile URL]
-- **GitHub**: [GitHub Profile URL]
+- **Email**: [deondre.kinsey@gmail.com]
+- **LinkedIn**: [\[LinkedIn Profile URL\]](https://www.linkedin.com/in/deondrekinsey/)
+- **GitHub**: [\[GitHub Profile URL\]](https://github.com/dre108)
 
 ---
 
@@ -144,6 +140,3 @@ Thank you for visiting my portfolio! Feel free to get in touch or connect with m
 - Make sure to update the **email**, **LinkedIn**, and **GitHub** URLs with your actual information.
 - If you have any specific **projects** or **achievements**, you can add them in the **work experience** section to give more insight into your skills and contributions.
 
----
-
-Let me know if you'd like any more changes to the README or need further details!
