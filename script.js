@@ -204,3 +204,19 @@ function init() {
 
 // Start the application
 document.addEventListener('DOMContentLoaded', init);
+
+// Toggle button (Dark Mode) 
+const toggle = document.getElementById("myToggle");
+const body = document.body;
+
+toggle.addEventListener("change", function() {
+  if (this.checked) {
+    // Enable dark mode
+    body.classList.add("dark-mode");
+    console.log("Dark Mode Enabled");
+  } else {
+    // Disable dark mode
+    body.classList.remove("dark-mode");
+    console.log("Dark Mode Disabled");
+  }
+});
