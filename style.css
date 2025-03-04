@@ -20,7 +20,8 @@
 .dark-mode {
     --card-background: #1f2937;
     --text-color: #ffffff;
-
+    --primary-color: #1f2937;
+    
 }
 
 body {
@@ -191,7 +192,7 @@ body.dark-mode {
     background-color: #121212;
     color: #ffffff;
   }
-  
+
 
 .toggle-container {
     position: relative;
