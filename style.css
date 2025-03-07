@@ -231,10 +231,11 @@ body.dark-mode {
 }
 
 .toggle-container {
-  position: relative;
   display: inline-block;
   width: 60px;
   height: 34px;
+  position:relative;
+  left: 1800px;
 }
 
 .toggle-container input {
@@ -247,7 +248,7 @@ body.dark-mode {
   position: absolute;
   cursor: pointer;
   top: 0;
-  left: 0;
+  left: 0px;
   right: 0;
   bottom: 0;
   background-color: #ccc;
