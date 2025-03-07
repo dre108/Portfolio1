@@ -1,68 +1,64 @@
-INDEX 
-
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="Deondre Kinsey's Professional Portfolio - Software Developer">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="Deondre Kinsey's Professional Portfolio - Software Developer"
+    />
     <script defer src="script.js"></script>
     <title>Software Developer Portfolio</title>
-    <link rel="stylesheet" href="style.css">
-</head>
-<body>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
     <header class="header">
-        <h1 class="header__title">Deondre Kinsey</h1>
-        <p class="header__subtitle">Software Developer</p>
+      <h1 class="header__title">Deondre Kinsey</h1>
+      <p class="header__subtitle">Software Developer</p>
     </header>
 
     <nav class="nav">
-        <ul class="nav__list">
-            <li><a href="#home" class="nav__link">Home</a></li>
-            <li><a href="#about" class="nav__link">About</a></li>
-            <li><a href="#work" class="nav__link">Work</a></li>
-            <li><a href="#testimonials" class="nav__link">Testimonials</a></li>
-        </ul>
+      <ul class="nav__list">
+        <li><a href="#home" class="nav__link">Home</a></li>
+        <li><a href="#about" class="nav__link">About</a></li>
+        <li><a href="#work" class="nav__link">Work</a></li>
+        <li><a href="#testimonials" class="nav__link">Testimonials</a></li>
+      </ul>
+      <label class="toggle-container">
+        <input type="checkbox" id="myToggle" />
+        <span class="slider"></span>
+      </label>
     </nav>
 
     <main class="main">
-        <div id="leftSide">
-
+      <div id="leftSide">
         <section id="home" class="section">
-            <h2 class="section__title">Hometown</h2>
-            <div id="homeOverview"></div>
-            <div id="homeAddress"></div>
-            <div id="homeContact"></div>
-
+          <h2 class="section__title">Hometown</h2>
+          <div id="homeOverview"></div>
+          <div id="homeAddress"></div>
+          <div id="homeContact"></div>
         </section>
-        
+
         <section id="work" class="section">
-            <h2 class="section__title">Work Experience</h2>
-            <div id="workOverview"></div>
-            <div id="workProjects" class="projects"></div>
+          <h2 class="section__title">Work Experience</h2>
+          <div id="workOverview"></div>
+          <div id="workProjects" class="projects"></div>
         </section>
-        </div>
+      </div>
 
-        <div id="rightSide">
+      <div id="rightSide">
+        <section id="about" class="section">
+          <h2 class="section__title">About Me</h2>
+          <div id="aboutOverview"></div>
+        </section>
 
-            <section id="about" class="section">
-                <h2 class="section__title">About Me</h2>
-                <div id="aboutOverview"></div>
-            </section>
-        
         <section id="testimonials" class="section">
-            <h2 class="section__title">Testimonials</h2>
-            <div id="testimonialsOverview"></div>
+          <h2 class="section__title">Testimonials</h2>
+          <div id="testimonialsOverview"></div>
         </section>
-
-        </div>
-
-        
+      </div>
     </main>
 
-<section class="input-section">
-            <input id="homeInput" class="input" type="text" placeholder="Where are you from?">
-        </section>
-
-</body>
+    
+  </body>
 </html>
